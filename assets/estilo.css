@@ -1,0 +1,18 @@
+/* Esta é a fonte principal de todo projecto css, a que vai ser mais utilizada */
+@font-face {
+    font-family: geral;
+    src: url(Roboto_Condensed/static/RobotoCondensed-Bold.ttf);
+}
+/* ..................................................... */
+
+/* reset de cores padrão do site */
+:root{
+    --principal : #0246c5;
+    --sec : #0f85c9;
+    --dark : #242323;
+    --light : #ffffff;
+}
+/* ................................... */
+img{
+    mix-blend-mode: multiply;
+}
